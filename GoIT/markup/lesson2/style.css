@@ -1,0 +1,170 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  padding: 30px ; 50px ; 30px ; 80px ;
+}
+.container{
+ /* vertical-align: center;
+  padding: 0; 20px; 0; 20px; 
+  margin: 0; auto;
+  background: #fff;*/
+  /*position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1366px;
+  height: 950px;
+  z-index: 44;*/
+   position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1366px;
+  height: 950px;
+  z-index: 43;
+
+
+}
+p {
+  font-family: "Open Sans";
+  font-size: 30px;
+  font-weight: bolder;
+
+}
+.headerblock {
+height: 80px;
+padding: 10px;  
+}
+
+
+ul {
+    list-style-type: none;
+    margin:0;
+    padding:0; 
+    overflow: hidden;
+}
+
+li {
+    float: left;
+    list-style: none;
+    font-family: "Open Sans";
+    font-weight: lighter;
+}
+
+a:link, a:visited {
+   display: block;
+    width: 250px;
+    padding: 4px;
+    text-align: center;
+
+  background-image: -moz-linear-gradient( 90deg, rgb(68,67,67) 0%, rgb(94,94,94) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(68,67,67) 0%, rgb(94,94,94) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(68,67,67) 0%, rgb(94,94,94) 100%);
+
+
+    text-decoration: none;
+    color: white;
+  }
+a:hover, a:active{
+ background-image: -moz-linear-gradient( 90deg, rgb(46,46,46) 0%, rgb(74,74,74) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(46,46,46) 0%, rgb(74,74,74) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(46,46,46) 0%, rgb(74,74,74) 100%);
+
+}
+
+.menu a{
+ 
+
+}
+
+
+
+
+
+
+
+
+
+/*
+
+.menu {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1366px;
+  height: 950px;
+  z-index: 44;
+}
+.links {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1366px;
+  height: 950px;
+  z-index: 43;
+}
+.Главная_Товары_О_нас_Контакты {
+  font-size: 14.667px;
+  
+
+  color: rgb(255, 255, 255);
+  line-height: 2;
+  text-align: justifyAll;
+  text-shadow: 0.5px 0.866px 1px rgba(0, 0, 0, 0.5);
+  position: absolute;
+  left: 223.484px;
+  top: 171.764px;
+  width: 482px;
+  height: 18px;
+  z-index: 42;
+}
+.hover {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1366px;
+  height: 950px;
+  z-index: 41;
+}
+.line_right {
+  background-image: url("line_right.png");
+  position: absolute;
+  left: 344px;
+  top: 130px;
+  width: 1px;
+  height: 40px;
+  z-index: 40;
+}
+.line_left {
+  background-image: url("line_left.png");
+  position: absolute;
+  left: 444px;
+  top: 130px;
+  width: 1px;
+  height: 40px;
+  z-index: 39;
+}
+.link {
+  background-image: -moz-linear-gradient( 90deg, rgb(46,46,46) 0%, rgb(74,74,74) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(46,46,46) 0%, rgb(74,74,74) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(46,46,46) 0%, rgb(74,74,74) 100%);
+  position: absolute;
+  left: 344px;
+  top: 130px;
+  width: 100px;
+  height: 40px;
+  z-index: 38;
+}
+.panel {
+  background-image: -moz-linear-gradient( 90deg, rgb(68,67,67) 0%, rgb(94,94,94) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(68,67,67) 0%, rgb(94,94,94) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(68,67,67) 0%, rgb(94,94,94) 100%);
+  position: absolute;
+  left: 200px;
+  top: 130px;
+  width: 966px;
+  height: 40px;
+  z-index: 35;
+}
+
+*/

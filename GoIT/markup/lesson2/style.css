@@ -3,7 +3,7 @@
   padding: 0;
 }
 body{
-  padding: 30px ; 50px ; 30px ; 80px ;
+  padding: 30px 50px 30px 80px ;
   height: 100%;
 }
 .container{
@@ -11,29 +11,29 @@ body{
   height: 500px;
  /* margin: 0; 10px; 0; 30px;*/
   
-  padding: 0; 30px; 0; 20px; 
+  padding: 0 30px 0 20px; 
   background: #fff;
-padding: 10px; 20px; 0; 20px;
+padding: 10px 20px 0 20px;
 box-shadow: -webkit-box-shadow: 0px 2px 32px 5px rgba(0,0,0,0.56);
 -moz-box-shadow: 0px 2px 32px 5px rgba(0,0,0,0.56);
 box-shadow: 0px 2px 32px 5px rgba(0,0,0,0.56);
   }
 .headerblock p {
   font-family: "Open Sans"; Arial; sans-Serif;
-  font-size: 30px;
+  font-size: 35px;
   font-weight: bolder;
+  padding: 0 0 0 10px;
  }
 
 .headerblock {
 height: 80px;
-/*padding: 30px; 0; 30px; 0;*/ 
+/*padding: 0 0 0 10px; */
 }
-
-
 ul {
     list-style-type: none;
-    margin:0 auto;
-    padding: 20px; 0; 20px; 0;
+    /*margin:0 auto;*/
+   /* padding: 20px 0 20px 0;*/
+   margin: 20px 0 0 12px;
 }
 
 li {
@@ -42,6 +42,7 @@ li {
     font-family: "Open Sans";
     font-weight: lighter;
     /*font-size: 18px;*/
+
 }
 
 .headerblock a:link, a:visited {
@@ -65,7 +66,9 @@ li {
 
 .menu{
   width: 100px;
- margin: 15px; 0; 10px; 10px ;
+ margin: 50px 0 10px -10px ;
+ padding:  0 0 0 10px;
+ /*position: static;*/
 }
 
 .menu ul {
@@ -74,20 +77,26 @@ li {
   }
   .menu li{
     border: 1px solid grey;
-     padding: 10px; 0; 10px; 0;
-    /* float: left;*/
+    padding: 10px 0 10px 30px ;
+    text-align: left;
+    /*float: left;*/
       }
 
-  .menu a{
-      display: block;
+  .menu a/*, select*/{
+      display: inline-block;
     text-decoration: none;
     color: grey;
-    width: 380px;
+    width: 320px;
+
   }
-.menu li:hover {
-    padding: 10px; 0; 10px; 0px;
+.menu a:hover, a:active {
+    padding:0 ;
+    margin: 0 ;
     background: #eee;
     color:black;
+    /*width: 320px;*/
+  /*background-position: ;
+  display: block;*/
     }
 
   .content p{
@@ -140,8 +149,11 @@ li {
     height: 100%;
     padding: 4px;
     text-align: center;
-    position: relative;
+    
   }
+  /*.copy li{
+    text-align: right;
+    text-decoration: none;*/
 
 
 
@@ -151,86 +163,3 @@ li {
 
 
 
-/*
-
-.menu {
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  width: 1366px;
-  height: 950px;
-  z-index: 44;
-}
-.links {
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  width: 1366px;
-  height: 950px;
-  z-index: 43;
-}
-.Главная_Товары_О_нас_Контакты {
-  font-size: 14.667px;
-  
-
-  color: rgb(255, 255, 255);
-  line-height: 2;
-  text-align: justifyAll;
-  text-shadow: 0.5px 0.866px 1px rgba(0, 0, 0, 0.5);
-  position: absolute;
-  left: 223.484px;
-  top: 171.764px;
-  width: 482px;
-  height: 18px;
-  z-index: 42;
-}
-.hover {
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  width: 1366px;
-  height: 950px;
-  z-index: 41;
-}
-.line_right {
-  background-image: url("line_right.png");
-  position: absolute;
-  left: 344px;
-  top: 130px;
-  width: 1px;
-  height: 40px;
-  z-index: 40;
-}
-.line_left {
-  background-image: url("line_left.png");
-  position: absolute;
-  left: 444px;
-  top: 130px;
-  width: 1px;
-  height: 40px;
-  z-index: 39;
-}
-.link {
-  background-image: -moz-linear-gradient( 90deg, rgb(46,46,46) 0%, rgb(74,74,74) 100%);
-  background-image: -webkit-linear-gradient( 90deg, rgb(46,46,46) 0%, rgb(74,74,74) 100%);
-  background-image: -ms-linear-gradient( 90deg, rgb(46,46,46) 0%, rgb(74,74,74) 100%);
-  position: absolute;
-  left: 344px;
-  top: 130px;
-  width: 100px;
-  height: 40px;
-  z-index: 38;
-}
-.panel {
-  background-image: -moz-linear-gradient( 90deg, rgb(68,67,67) 0%, rgb(94,94,94) 100%);
-  background-image: -webkit-linear-gradient( 90deg, rgb(68,67,67) 0%, rgb(94,94,94) 100%);
-  background-image: -ms-linear-gradient( 90deg, rgb(68,67,67) 0%, rgb(94,94,94) 100%);
-  position: absolute;
-  left: 200px;
-  top: 130px;
-  width: 966px;
-  height: 40px;
-  z-index: 35;
-}
-
-*/

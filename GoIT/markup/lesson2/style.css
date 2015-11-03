@@ -2,12 +2,11 @@
   margin: 0;
   padding: 0;
 }
-html, 
 body{
-  padding: 20px 50px 30px 30px ;
-  height: 100%;
-  margin: o auto;
-}
+  padding: 20px 50px 0 30px ;
+  min-height: 100%;
+  margin: 0 auto;
+  }
 .container{
   width: 1100px;
   height: 700px;
@@ -17,6 +16,7 @@ body{
 box-shadow: -webkit-box-shadow: 0px 2px 32px 5px rgba(0,0,0,0.56);
 -moz-box-shadow: 0px 2px 32px 5px rgba(0,0,0,0.56);
 box-shadow: 0px 2px 32px 5px rgba(0,0,0,0.56);
+position: relative;
   }
 .headerblock p {
   font-family: "Open Sans"; Arial; sans-Serif;
@@ -32,8 +32,6 @@ height: 80px;
 }
 ul {
     list-style-type: none;
-    /*margin:0 auto;*/
-   /* padding: 20px 0 20px 0;*/
    margin: 20px 0 0 12px;
 }
 
@@ -94,10 +92,8 @@ li {
     margin: 0 ;
     background: grey;
     color:black;
-    /*width: 320px;*/
-  /*background-position: ;
-  display: block;*/
     }
+   
     .content {
       width: 65%;
       height: 350px;
@@ -106,22 +102,25 @@ li {
     font-size: 10px;
     font-weight: 100px;
     color: grey;
+    margin: 40px 0 0 20px;
     }
+    
     img{
       height: 350px;
       width: 600px;
+      border-image: none;
+      border-right: 1px solid #eee;
     }
-    
-
- .content p {
-   
-    /*float: right;*/
-     width: 70%;
-      z-index: 1;
-} 
+    .content p {
+   float: left;
+     width: 600px;
+      margin: 5px 0 30px 0;
+    } 
 .footer{
-  clear: both;
-   width: 600px;
+position: absolute;
+bottom: 0;
+    width: 100%;
+height: 80px;
 }
 
 .footer a{
@@ -129,61 +128,42 @@ li {
       background-color: #eee;
       color:black;
       display: block;
-
- }
-
+      padding: 0 0 0 15px;
+}
 .footer ul{
     list-style: none;
     margin-left:12px;
     padding: 0;
-    
-
-}
+     line-height: 25px;
+    }
   .footer li{
-   /* float: left;*/
-   /*clear:both;*/
     list-style: none;
     font-family: "Open Sans";
     font-size: 12px;
-    height: 35px;
-   
-
-
-
-   }
+    height: 30px;
+  text-align: center;
+    /*float:left;*/
+  }
+ 
   .footer a:link, a:visited {
    display: block;
     width: 205px;
     padding: 4px;
-
-   /* text-align: center;*/
   }
 
 .footer a:hover, a:active{
- /*width: 250px;*/
-  text-decoration: underline;
-  
-}
+text-decoration: underline;
+  }
 
 .footer a:link, a:visited {
-   display: block;
     height: 100%;
-    padding: 4px;
-    text-align: center;
     display: block; 
     }
-    .copy {
-      clear: left;
-      color:black;
-      background-color: #eee;
-      height: 40px;
-     text-align: center;
-     /*float:right;*/
-     font-family: "Open Sans";
-     font-size: 12px;
-    /* margin: 0 40px 0 -50px ;*/
-}
   
+   a.disabled {
+    pointer-events: none;
+    cursor: default;
+    }
 
 
 

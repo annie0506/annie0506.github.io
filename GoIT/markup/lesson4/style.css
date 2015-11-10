@@ -5,21 +5,37 @@
 	font-family: "Open sans";
 	text-decoration: none;
 }
+body{
+	height: 1030px;
+
+}
 .container {
 	margin: 0 auto;
 	width: 800px;
 	height: 1000px;
-	border: 1px solid black;
+	/*border-left: 1px solid black;
+	border-right: 1px solid black; */
 	overflow: hidden;
+	background: #fff;
+	-webkit-box-shadow: -1px 5px 16px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 5px 16px 1px rgba(0,0,0,0.75);
+    box-shadow: -1px 5px 16px 1px rgba(0,0,0,0.75);
 }
 .header {
 	margin: 5px 15px 0 0;
+
+}
+.header img{
+	width: 400px;
+	height: 170px;
+	margin: 0 10px -70px 0;
 }
 .contacts {
 	float: right;
 	font-size: 10px;
 	line-height: 15px;
 	padding: 15px;
+	color: #128aa7;
 }
 .flags {
 	float:right;
@@ -37,28 +53,24 @@
 }
 .flags a {
 	display: inline-block;
-	color:blue;
+	color:#128aa7;;
 	font-size: 10px;
 	height: 50px;
-	width: 63px;
+	width: 60px;
 	text-align: center;
 }
 img {
 	height: 230px;
 	width: 800px;
-
 }
-/*.clearfix :after {
-	clear: both;
-	content: '';
-	display: block;
-	visibility: hidden;
+.top-menu{
+	margin: -5px 0 0 0;
 }
-.top-menu {
-	clear: both;
-}*/
 .mainline {
 	width: 100%;
+	-webkit-box-shadow: 0px 5px 7px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 5px 7px -2px rgba(0,0,0,0.75);
+    box-shadow: 0px 5px 7px -2px rgba(0,0,0,0.75);
 }
 .top-menu ul {
 	display: inline-block;
@@ -70,6 +82,9 @@ img {
 .top-menu ul li:hover ul {
 	display: block;
 	padding: 0 ;
+	-webkit-box-shadow: 0px 5px 10px 1px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 5px 10px 1px rgba(0,0,0,0.75);
+box-shadow: 0px 5px 10px 1px rgba(0,0,0,0.75);
 }
 .top-menu ul {
 	background-image: -moz-linear-gradient( 90deg, rgb(46,46,46) 0%, rgb(74,74,74) 100%);
@@ -108,9 +123,10 @@ img {
     float: left;
     width: 25%;
     padding-bottom: 2000px;
-    margin-bottom: -2000px;
+    margin: -5px 0 -2000px 0;
     border-right: 1px solid grey;
     background: #eee;
+    margin: -5px 0 0 0;
 }
 .sidebar ul {
 	padding: 5px 0 ;
@@ -126,10 +142,11 @@ img {
 .content {
 	float: right;
 	width: 25%;
-	padding-bottom: 2000%
-	margin-bottom: -2000px; 
+	padding-bottom: 2000%;
+	margin: -5px 0 -2000px 0; 
 	border-left: 1px solid grey;
 	background: #eee;
+
 }
 .content ul{
 	padding: 5px 0 ;
@@ -140,6 +157,12 @@ img {
 .content li {
 	padding: 5px 0;
 	font-size: 12px;
+	text-align: center;
+}
+.bottom-line{
+	padding: 5px 0 ;
+	color:#abcfdf;
+	font-size: 11px;
 	text-align: center;
 }
 

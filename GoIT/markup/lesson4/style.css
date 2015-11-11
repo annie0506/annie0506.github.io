@@ -6,15 +6,13 @@
 	text-decoration: none;
 }
 body {
-	height: 1030px;
 	background-image: url(img/fon.jpg);
 	background-size: cover;
-
 }
 .container {
 	margin: 0 auto;
 	width: 800px;
-	height: 1000px;
+	height: 1100px;
 	overflow: hidden;
 	background: #fff;
 	-webkit-box-shadow: -1px 5px 16px 1px rgba(0,0,0,0.75);
@@ -27,7 +25,7 @@ body {
 .header img{
 	width: 400px;
 	height: 170px;
-	margin: 0 10px -70px 0;
+	margin: 0 10px -64px 0;
 }
 .contacts {
 	float: right;
@@ -77,7 +75,6 @@ body {
 }
 .top-menu ul {
 	display: inline-block;
-
 }
 .top-menu ul ul{
 	display: none;
@@ -86,8 +83,8 @@ body {
 	display: block;
 	padding: 0 ;
 	-webkit-box-shadow: 0px 5px 10px 1px rgba(0,0,0,0.75);
--moz-box-shadow: 0px 5px 10px 1px rgba(0,0,0,0.75);
-box-shadow: 0px 5px 10px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 5px 10px 1px rgba(0,0,0,0.75);
+    box-shadow: 0px 5px 10px 1px rgba(0,0,0,0.75);
 }
 .top-menu ul {
 	background-image: -moz-linear-gradient( 90deg, rgb(46,46,46) 0%, rgb(74,74,74) 100%);
@@ -151,7 +148,7 @@ box-shadow: 0px 5px 10px 1px rgba(0,0,0,0.75);
 	background: #eee;
 
 }
-.content ul{
+.content ul {
 	padding: 5px 0 ;
 	font-size: 20px;
 	font-weight: bold;
@@ -162,7 +159,7 @@ box-shadow: 0px 5px 10px 1px rgba(0,0,0,0.75);
 	font-size: 12px;
 	text-align: center;
 }
-.bottom-line{
+.bottom-line {
 	padding: 5px 0 ;
 	color:#abcfdf;
 	font-size: 11px;

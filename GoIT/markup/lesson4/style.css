@@ -5,16 +5,16 @@
 	font-family: "Open sans";
 	text-decoration: none;
 }
-body{
+body {
 	height: 1030px;
+	background-image: url(img/fon.jpg);
+	background-size: cover;
 
 }
 .container {
 	margin: 0 auto;
 	width: 800px;
 	height: 1000px;
-	/*border-left: 1px solid black;
-	border-right: 1px solid black; */
 	overflow: hidden;
 	background: #fff;
 	-webkit-box-shadow: -1px 5px 16px 1px rgba(0,0,0,0.75);
@@ -23,7 +23,6 @@ body{
 }
 .header {
 	margin: 5px 15px 0 0;
-
 }
 .header img{
 	width: 400px;
@@ -34,7 +33,7 @@ body{
 	float: right;
 	font-size: 10px;
 	line-height: 15px;
-	padding: 15px;
+	padding: 15px 0 20px 0;
 	color: #128aa7;
 }
 .flags {
@@ -59,9 +58,13 @@ body{
 	width: 60px;
 	text-align: center;
 }
-img {
-	height: 230px;
+.flags a:hover{
+	text-decoration: underline;
+}
+.large-photo img {
+	height: 220px;
 	width: 800px;
+	padding: 18px 0 0 0;
 }
 .top-menu{
 	margin: -5px 0 0 0;
@@ -165,5 +168,4 @@ box-shadow: 0px 5px 10px 1px rgba(0,0,0,0.75);
 	font-size: 11px;
 	text-align: center;
 }
-
 
